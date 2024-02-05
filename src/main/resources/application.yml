@@ -1,0 +1,16 @@
+msgamehouse:
+    app:
+        jwtCookieName: msGameHouse
+        jwtExpirationMs: 900000
+        jwtSecret: ======================msGameHouse===========================
+spring:
+    datasource:
+        password: asdf123zxc
+        url: jdbc:mysql://localhost:3306/zicare_db?useSSL=false
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
